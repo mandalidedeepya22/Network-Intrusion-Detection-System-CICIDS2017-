@@ -1,0 +1,70 @@
+feature,Boruta ranking,status
+ACK Flag Count,1,Confirmed
+Active Max,1,Confirmed
+Active Mean,1,Confirmed
+Active Min,1,Confirmed
+Active Std,1,Confirmed
+Average Packet Size,1,Confirmed
+Avg Bwd Segment Size,1,Confirmed
+Avg Fwd Segment Size,1,Confirmed
+Bwd Header Length,1,Confirmed
+Bwd IAT Max,1,Confirmed
+Bwd IAT Mean,1,Confirmed
+Bwd IAT Min,1,Confirmed
+Bwd IAT Std,1,Confirmed
+Bwd IAT Total,1,Confirmed
+Bwd Packet Length Max,1,Confirmed
+Bwd Packet Length Mean,1,Confirmed
+Bwd Packet Length Min,1,Confirmed
+Bwd Packet Length Std,1,Confirmed
+Bwd Packets/s,1,Confirmed
+Destination Port,1,Confirmed
+Down/Up Ratio,1,Confirmed
+Flow Bytes/s,1,Confirmed
+Flow Duration,1,Confirmed
+Flow IAT Max,1,Confirmed
+Flow IAT Mean,1,Confirmed
+Flow IAT Min,1,Confirmed
+Flow IAT Std,1,Confirmed
+Flow Packets/s,1,Confirmed
+Fwd Header Length,1,Confirmed
+Fwd IAT Max,1,Confirmed
+Fwd IAT Mean,1,Confirmed
+Fwd IAT Min,1,Confirmed
+Fwd IAT Std,1,Confirmed
+Fwd IAT Total,1,Confirmed
+Fwd PSH Flags,1,Confirmed
+Fwd Packet Length Max,1,Confirmed
+Fwd Packet Length Mean,1,Confirmed
+Fwd Packet Length Min,1,Confirmed
+Fwd Packet Length Std,1,Confirmed
+Fwd Packets/s,1,Confirmed
+Idle Max,1,Confirmed
+Idle Mean,1,Confirmed
+Idle Min,1,Confirmed
+Idle Std,1,Confirmed
+Init_Win_bytes_backward,1,Confirmed
+Init_Win_bytes_forward,1,Confirmed
+Max Packet Length,1,Confirmed
+Min Packet Length,1,Confirmed
+PSH Flag Count,1,Confirmed
+Packet Length Mean,1,Confirmed
+Packet Length Std,1,Confirmed
+Packet Length Variance,1,Confirmed
+SYN Flag Count,1,Confirmed
+Subflow Bwd Bytes,1,Confirmed
+Subflow Bwd Packets,1,Confirmed
+Subflow Fwd Bytes,1,Confirmed
+Subflow Fwd Packets,1,Confirmed
+Total Backward Packets,1,Confirmed
+Total Fwd Packets,1,Confirmed
+Total Length of Bwd Packets,1,Confirmed
+Total Length of Fwd Packets,1,Confirmed
+URG Flag Count,1,Confirmed
+act_data_pkt_fwd,1,Confirmed
+min_seg_size_forward,1,Confirmed
+FIN Flag Count,2,Tentative
+CWE Flag Count,3,Rejected
+ECE Flag Count,3,Rejected
+Fwd URG Flags,3,Rejected
+RST Flag Count,3,Rejected

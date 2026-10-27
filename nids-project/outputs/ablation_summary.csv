@@ -1,0 +1,6 @@
+Variant,Description,15-Class Acc (Mean),15-Class Acc (Std),15-Class Macro F1 (Mean),15-Class Macro F1 (Std),13-Class Macro F1 (Mean),13-Class Macro F1 (Std),Attack Recall (Mean),Attack Recall (Std),Benign FPR (%) (Mean),Benign FPR (%) (Std),Avg Train Time (s)
+V1_baseline,"V1: Baseline (65 selected features, capped, SMOTE)",0.99838,1e-05,0.86765,0.00642,0.94614,0.00306,0.99983,1e-05,0.1463,0.0019,45.1
+V2_no_smote,"V2: No SMOTE (65 selected features, capped only)",0.99846,0.0,0.87693,0.0,0.95064,0.0,0.99982,0.0,0.1433,0.0,44.2
+V3_all_69,"V3: All 69 Features (No Boruta, capped, SMOTE)",0.99838,3e-05,0.87402,0.00455,0.94684,0.00095,0.99984,2e-05,0.1487,0.0034,53.5
+V4_top_20,"V4: Top 20 Features (from XGBoost importances, SMOTE)",0.98529,0.00045,0.72708,0.00362,0.82354,0.00445,0.99434,7e-05,1.6061,0.0529,26.5
+V5_no_dest_port,"V5: Without Destination Port (64 features, SMOTE)",0.99806,6e-05,0.85153,0.01172,0.92723,0.00601,0.9997,3e-05,0.1824,0.006,50.1

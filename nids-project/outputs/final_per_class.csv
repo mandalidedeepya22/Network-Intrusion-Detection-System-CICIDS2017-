@@ -1,0 +1,61 @@
+Model,Class,Precision,Recall,F1,Support
+Logistic Regression,BENIGN,0.99905,0.92423,0.96018,414451
+Logistic Regression,Bot,0.34735,0.40256,0.37292,390
+Logistic Regression,DDoS,0.87774,0.99852,0.93424,25603
+Logistic Regression,DoS GoldenEye,0.66305,0.95233,0.78179,2056
+Logistic Regression,DoS Hulk,0.82644,0.99711,0.90378,34569
+Logistic Regression,DoS Slowhttptest,0.67077,0.9369,0.78181,1046
+Logistic Regression,DoS slowloris,0.50416,0.90233,0.64688,1075
+Logistic Regression,FTP-Patator,0.5518,0.99241,0.70925,1186
+Logistic Regression,Heartbleed,0.125,0.5,0.2,2
+Logistic Regression,Infiltration,0.01754,0.85714,0.03438,7
+Logistic Regression,PortScan,0.6525,0.99895,0.78939,18139
+Logistic Regression,SSH-Patator,0.83908,0.90683,0.87164,644
+Logistic Regression,Web Attack - Brute Force,0.02333,0.10204,0.03797,294
+Logistic Regression,Web Attack - Sql Injection,0.00054,0.5,0.00107,4
+Logistic Regression,Web Attack - XSS,0.04481,0.9,0.08537,130
+Random Forest,BENIGN,0.99989,0.99825,0.99907,414451
+Random Forest,Bot,0.66667,0.96923,0.78997,390
+Random Forest,DDoS,0.99887,0.99977,0.99932,25603
+Random Forest,DoS GoldenEye,0.9856,0.99854,0.99203,2056
+Random Forest,DoS Hulk,0.99373,0.99936,0.99654,34569
+Random Forest,DoS Slowhttptest,0.96104,0.99044,0.97552,1046
+Random Forest,DoS slowloris,0.98886,0.9907,0.98978,1075
+Random Forest,FTP-Patator,1.0,1.0,1.0,1186
+Random Forest,Heartbleed,1.0,0.5,0.66667,2
+Random Forest,Infiltration,0.66667,0.85714,0.75,7
+Random Forest,PortScan,0.98871,0.99945,0.99405,18139
+Random Forest,SSH-Patator,0.98615,0.99534,0.99073,644
+Random Forest,Web Attack - Brute Force,0.81448,0.61224,0.69903,294
+Random Forest,Web Attack - Sql Injection,0.5,0.75,0.6,4
+Random Forest,Web Attack - XSS,0.39171,0.65385,0.48991,130
+XGBoost,BENIGN,0.99996,0.99854,0.99925,414451
+XGBoost,Bot,0.64874,0.98974,0.78376,390
+XGBoost,DDoS,0.99879,0.99992,0.99936,25603
+XGBoost,DoS GoldenEye,0.99226,0.99805,0.99515,2056
+XGBoost,DoS Hulk,0.99734,0.99965,0.9985,34569
+XGBoost,DoS Slowhttptest,0.97371,0.9914,0.98247,1046
+XGBoost,DoS slowloris,0.98065,0.98977,0.98519,1075
+XGBoost,FTP-Patator,0.99664,1.0,0.99832,1186
+XGBoost,Heartbleed,0.66667,1.0,0.8,2
+XGBoost,Infiltration,0.66667,0.85714,0.75,7
+XGBoost,PortScan,0.98828,0.99961,0.99392,18139
+XGBoost,SSH-Patator,0.99536,0.99845,0.9969,644
+XGBoost,Web Attack - Brute Force,0.77647,0.67347,0.72131,294
+XGBoost,Web Attack - Sql Injection,0.375,0.75,0.5,4
+XGBoost,Web Attack - XSS,0.41758,0.58462,0.48718,130
+Stacked Ensemble,BENIGN,0.99994,0.9986,0.99927,414451
+Stacked Ensemble,Bot,0.68659,0.97179,0.80467,390
+Stacked Ensemble,DDoS,0.99895,0.99992,0.99943,25603
+Stacked Ensemble,DoS GoldenEye,0.99083,0.99854,0.99467,2056
+Stacked Ensemble,DoS Hulk,0.99605,0.99977,0.99791,34569
+Stacked Ensemble,DoS Slowhttptest,0.9783,0.9914,0.98481,1046
+Stacked Ensemble,DoS slowloris,0.98612,0.99163,0.98887,1075
+Stacked Ensemble,FTP-Patator,0.99916,1.0,0.99958,1186
+Stacked Ensemble,Heartbleed,1.0,0.5,0.66667,2
+Stacked Ensemble,Infiltration,1.0,0.85714,0.92308,7
+Stacked Ensemble,PortScan,0.9886,0.9995,0.99402,18139
+Stacked Ensemble,SSH-Patator,0.9969,0.99845,0.99767,644
+Stacked Ensemble,Web Attack - Brute Force,0.7139,0.90816,0.7994,294
+Stacked Ensemble,Web Attack - Sql Injection,0.6,0.75,0.66667,4
+Stacked Ensemble,Web Attack - XSS,0.48077,0.19231,0.27473,130

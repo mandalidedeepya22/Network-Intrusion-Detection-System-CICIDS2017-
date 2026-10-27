@@ -1,0 +1,16 @@
+Variant,Description,Seed,Train Time (s),15-Class Acc,15-Class Macro F1,13-Class Macro F1,Attack Recall,Benign FPR (%),FP Count,TN Count
+V1_baseline,"V1: Baseline (65 selected features, capped, SMOTE)",42,41.52,0.99839,0.86609,0.94263,0.99982,0.1457,604,413847
+V1_baseline,"V1: Baseline (65 selected features, capped, SMOTE)",43,45.75,0.99838,0.86216,0.94824,0.99984,0.1448,600,413851
+V1_baseline,"V1: Baseline (65 selected features, capped, SMOTE)",44,48.11,0.99838,0.87471,0.94754,0.99984,0.1484,615,413836
+V2_no_smote,"V2: No SMOTE (65 selected features, capped only)",42,41.7,0.99846,0.87693,0.95064,0.99982,0.1433,594,413857
+V2_no_smote,"V2: No SMOTE (65 selected features, capped only)",43,41.96,0.99846,0.87693,0.95064,0.99982,0.1433,594,413857
+V2_no_smote,"V2: No SMOTE (65 selected features, capped only)",44,48.93,0.99846,0.87693,0.95064,0.99982,0.1433,594,413857
+V3_all_69,"V3: All 69 Features (No Boruta, capped, SMOTE)",42,52.47,0.99837,0.87925,0.94666,0.99981,0.1494,619,413832
+V3_all_69,"V3: All 69 Features (No Boruta, capped, SMOTE)",43,54.71,0.99836,0.87097,0.94599,0.99985,0.1518,629,413822
+V3_all_69,"V3: All 69 Features (No Boruta, capped, SMOTE)",44,53.36,0.99842,0.87184,0.94787,0.99985,0.145,601,413850
+V4_top_20,"V4: Top 20 Features (from XGBoost importances, SMOTE)",42,26.38,0.9851,0.73059,0.82697,0.99434,1.627,6743,407708
+V4_top_20,"V4: Top 20 Features (from XGBoost importances, SMOTE)",43,27.41,0.9858,0.72336,0.81851,0.99427,1.5459,6407,408044
+V4_top_20,"V4: Top 20 Features (from XGBoost importances, SMOTE)",44,25.7,0.98497,0.7273,0.82513,0.99441,1.6453,6819,407632
+V5_no_dest_port,"V5: Without Destination Port (64 features, SMOTE)",42,50.04,0.99812,0.86016,0.931,0.99969,0.1757,728,413723
+V5_no_dest_port,"V5: Without Destination Port (64 features, SMOTE)",43,48.62,0.998,0.83818,0.9203,0.99973,0.187,775,413676
+V5_no_dest_port,"V5: Without Destination Port (64 features, SMOTE)",44,51.68,0.99805,0.85624,0.93038,0.99968,0.1846,765,413686

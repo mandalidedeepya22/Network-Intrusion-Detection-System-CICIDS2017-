@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+**/venv/
+.venv/
+**/env/
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Process logs
+*.log
+**/*.log
+
+# Streamlit secrets & local environment files
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+.env
+**/.env
+
+# Dataset files (all raw CSVs, cleaned, split, resampled, and merged Parquet files)
+data/
+**/data/
+
+# Cached test-set prediction matrix
+outputs/test_predictions.npz
+**/outputs/test_predictions.npz
+
+# Large archives and files over 50 MB
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.iso

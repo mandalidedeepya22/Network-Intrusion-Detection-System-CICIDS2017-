@@ -1,0 +1,5 @@
+Model,Median Latency (ms),95th Percentile (ms),Batch Throughput (flows/s)
+Logistic Regression,0.08783333333333333,0.1044,8457579.7
+Random Forest (n_jobs=1),6.890266666666666,8.439300000000001,120510.9
+Stacked Ensemble (fair),8.785633333333335,9.997533333333333,64988.3
+XGBoost (n_jobs=1),0.8125666666666667,1.7489666666666668,158098.6
